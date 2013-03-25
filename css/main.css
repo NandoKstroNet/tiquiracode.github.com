@@ -1,1 +1,25 @@
 *{ margin:0; padding:0; border:0; }
+
+body{ font-family:'Open Sans'; background:url('/img/struckaxiom.png'); }
+
+#main{ margin:20px auto; width:1000px; }
+
+#profile{ text-align:center; width:27%; font-size:17px; box-shadow: 0 8px 6px -6px black; 
+    float:left; background-color:#fff; margin-right:20px; }
+#profile #description{ padding-top:20px; }
+#profile #links{ margin:15px 0 20px 0; }
+#profile #links a{ text-decoration:none; margin:0 5px; }
+#profile #links a:hover{ color:#000; }
+#profile #social-links{ background-color:#37819a; padding-top:5px; }
+
+#content{ width:70%; overflow:hidden; background-color:#fff; }
+#content .post-box .title{ font-size:40px; font-weight:normal; margin-bottom:5px; padding:20px 0 10px 20px; }
+#content .post-box .imgpost{ margin-bottom:15px; }
+#content .post-box .date{ background-color:#eee; color:#777; padding:5px 20px; }
+#content .post-box .author{ margin-left:5px; }
+#content .post-box .author a{ color:#777; text-decoration:none; }
+#content .post-box .author a:hover{ color:#444; text-decoration:underline; }
+#content .post-box .intro{ margin:20px 0 10px 0; padding:10px 20px; }
+#content .post-box .readmore{ text-decoration:none; padding:0 0 20px 20px; }
+
+.border-box{ border:1px solid #ccc; }
