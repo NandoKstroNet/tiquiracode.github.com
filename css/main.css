@@ -2,6 +2,8 @@
 
 body{ font-family:'Open Sans'; background:url('/img/struckaxiom.png'); }
 
+.clear{clear: both}
+
 ::-moz-selection { background-color: #dd2020; color: #fff;}
 
 ::selection { background-color: #dd2020; color: #fff;}
@@ -41,3 +43,13 @@ body{ font-family:'Open Sans'; background:url('/img/struckaxiom.png'); }
 #footer-social-network li a:hover span{opacity: 0.9;bottom: -35px;left:50%;margin-left: -44px;}
 
 #footerNote{clear: both; text-align: center;}
+
+.author > img{border-radius: 50% 50%;float: left; margin: 0px 15px;}
+.author > p{text-align: justify; margin-right: 30px;}
+.authorName{font-size: 22px;text-transform: uppercase;font-weight: bold; color: #95ACD6;}
+
+#social-network ul{list-style: none;}
+#social-network li{width: 34px;height: 34px;background: url(/img/social-icons.png) no-repeat;float: left}
+#social-network .gplus{background-position: 0px -80px; }
+#social-network .linkedin{background-position: 0px -359px; }
+#social-network .fb{background-position: 0px 0px; }
