@@ -8,6 +8,8 @@ body{ font-family:'Open Sans'; background:url('/img/struckaxiom.png'); }
 
 .limiter{ margin:20px auto; width:1000px; }
 
+.clear{clear: both;}
+
 #profile{ text-align:center; width:27%; font-size:17px; box-shadow:0 8px 6px -6px black; 
     float:left; background-color:#fff; margin-right:20px; }
 #profile #description{ padding-top:20px; }
