@@ -44,10 +44,12 @@ body{ font-family:'Open Sans'; background:url('/img/struckaxiom.png'); }
 
 #footerNote{clear: both; text-align: center;}
 
+.author{position: relative;}
 .author > img{border-radius: 50% 50%;float: left; margin: 0px 15px;}
 .author > p{text-align: justify; margin-right: 30px;}
 .authorName{font-size: 22px;text-transform: uppercase;font-weight: bold; color: #95ACD6;}
 
+#social-network {position: absolute;top:0px;right: 30px}
 #social-network ul{list-style: none;}
 #social-network li{width: 34px;height: 34px;background: url(/img/social-icons.png) no-repeat;float: left}
 #social-network .gplus{background-position: 0px -80px; }
